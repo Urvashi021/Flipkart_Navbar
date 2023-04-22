@@ -1,0 +1,131 @@
+.nav {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #2874f0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1548px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.explore {
+  font-size: 13px;
+  font-style: italic;
+  margin-top: -1px;
+  color: white;
+}
+.plus-text {
+  color: yellow;
+  font-weight: 600;
+  margin-right: 2px;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: -1px;
+}
+.plus {
+  width: 13px;
+}
+.search {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+  height: 36px;
+  width: 100%;
+  padding: 0 16px;  
+  max-width: 564px;
+  
+  position: relative;
+  /* flex: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-radius: 2px;
+  background-color: white;
+  /* display: inline-block; */
+  /* padding: 0px 6px; */
+  border: 0;
+  outline: 0;
+  word-spacing: normal;
+}
+.search input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: transparent;
+  cursor: auto;
+}
+.search img {
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.searchimg {
+  border: 1px solid white;
+  background-color: white;
+  height: 36px;
+  width: 44px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 4px 12px 0 8px;
+}
+.login button {
+  /* position: relative; */
+  /* margin: 0 20px; */
+  /* padding: 0 40px; */
+  line-height: 20px;
+  display: inline-block;
+  position: relative;
+  min-width: 100px;
+  max-width: 150px;
+  width: auto;
+  color: #1b5ecb;
+  height: 36px;
+  background: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  background: white;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 2px 30px;
+  border: 1px solid white;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 0.1px;
+}
+
+.cart {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
